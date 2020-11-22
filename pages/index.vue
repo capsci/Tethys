@@ -3,13 +3,28 @@
   <h2>
     Tethys
   </h2>
+  <br/>
+  <Order />
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script>
+import Order from "./../components/Order";
 
-export default Vue.extend({})
+export default {
+  head() {
+    return {
+      title: "Tethys",
+      meta: [
+        {
+          hid: "Tethys",
+          name: "Tethys",
+          content: "Landing page for Tethys webapp"
+        }
+      ],
+    }
+  },
+}
 </script>
 
 <style>
