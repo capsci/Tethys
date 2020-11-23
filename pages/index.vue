@@ -1,11 +1,18 @@
 <template>
-  <div class="container">
-  <h2>
-    Tethys
-  </h2>
-  <br/>
-  <Order />
+  <v-container fluid id="app" data-app>
+  <div>
+  <v-row>
+    <v-col>
+      <h2>Tethys</h2>
+    </v-col>
+  </v-row>
+  <v-row>
+    <v-col>
+      <Order />
+    </v-col>
+  </v-row>
   </div>
+  </v-container>
 </template>
 
 <script>
